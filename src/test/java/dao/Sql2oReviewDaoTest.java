@@ -1,7 +1,9 @@
-package DAO;
+package dao;
 
 import models.Restaurant;
 import models.Review;
+import models.dao.Sql2oRestaurantDao;
+import models.dao.Sql2oReviewDao;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -73,4 +73,3 @@ public class Review {
         return Objects.hash(content, writtenBy, rating, id, restaurantId);
     }
 }
-
