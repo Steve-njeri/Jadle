@@ -19,7 +19,7 @@ public class ReviewTest {
     @Test
     public void getContent() {
         Review testReview = setupReview();
-        assertEquals("Great service", testReview.getContent());
+        assertEquals("Kim", testReview.getContent());
     }
 
     @Test
@@ -32,7 +32,7 @@ public class ReviewTest {
     @Test
     public void getWrittenBy() {
         Review testReview = setupReview();
-        assertEquals("Kim", testReview.getWrittenBy());
+        assertEquals("Great service", testReview.getWrittenBy());
     }
 
     @Test
@@ -77,7 +77,7 @@ public class ReviewTest {
 
     // helper
     public Review setupReview (){
-        return new Review("Great service", "Kim", 4, 1);
+        return new Review("Great service", 4,"Kim", 1);
     }
 
 }
